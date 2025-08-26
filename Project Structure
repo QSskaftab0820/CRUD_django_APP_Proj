@@ -1,0 +1,21 @@
+manage.py → Entry point for Django commands (runserver, migrate, createsuperuser, etc.).
+
+settings.py → Main configuration (database, installed apps, templates, static files).
+
+urls.py (project-level) → Routes incoming requests to the right app.
+
+apps.py → Registers the app inside Django.
+
+models.py → Defines database models (tables).
+
+0001_initial.py → Auto-generated migration for initial database schema.
+
+admin.py → Registers models for Django Admin (web UI to manage data).
+
+views.py → Handles business logic and returns responses (HTML, JSON, redirects).
+
+urls.py (app-level) → Maps app URLs to corresponding views.
+
+templates/index.html → Frontend HTML template for rendering views.
+
+db.sqlite3 → SQLite database file where all app data is stored.
